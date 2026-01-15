@@ -1,0 +1,35 @@
+ru:
+  label_allow_other_login_admins: все администраторы
+  label_allow_other_login_all: все пользователи
+  label_allow_other_login: разрешить стандартный вход
+  label_allow_other_login_none: отключено
+  label_allow_other_login_users: некоторые пользователи (через запятую)
+  label_default: по умолчанию
+  label_email_address: адрес электронной почты
+  label_enabled: включить
+  label_env_variable_name: имя переменной окружения запроса
+  label_ldap_checked_auto_registration: автоматическая регистрация с проверкой LDAP
+  label_login_name: имя пользователя
+  label_remove_suffix_help: указанный текст будет удален с конца текста в переменной окружения
+  label_remove_suffix: удалить суффикс
+  label_redmine_user_property: свойство пользователя Redmine
+  label_env_checked_auto_registration: автоматическая регистрация с переменными окружения
+  label_env_variable_firstname: переменная с именем
+  label_env_variable_lastname: переменная с фамилией
+  label_env_variable_email: переменная с email
+  label_env_variable_admins: список логинов администраторов
+  label_env_variable_admins_description: список логинов через запятую, которые будут зарегистрированы как администраторы
+  label_env_variable_new_user_initial_locked: блокировать новые зарегистрированные аккаунты
+  label_show_logout_link: показывать ссылку выхода
+  label_external_logout_target: куда перенаправлять при выходе
+  label_external_logout_target_description: укажите внешний сервис выхода. Если пусто, используется внутренний путь выхода
+  label_external_auth_buttons: Кнопки внешней аутентификации
+  label_external_auth_buttons_description: Настройте URL-адреса внешней аутентификации и соответствующие надписи на кнопках. Оставьте пустым для отключения.
+  label_auth_button_pair: Кнопка %{num}
+  label_auth_url: URL аутентификации
+  label_auth_button_label: Надпись на кнопке
+  label_auth_button_placeholder: напр. Вход Shibboleth
+  label_or_login_with: "Или войти с "
+  label_local_account: локальным аккаунтом
+  label_allow_local_login: Разрешить локальный вход
+  label_allow_local_login_description: "Если снято, ссылка 'локальный аккаунт' не будет отображаться на странице входа"

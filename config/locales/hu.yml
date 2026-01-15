@@ -1,0 +1,35 @@
+hu:
+  label_allow_other_login_admins: minden adminisztrátor
+  label_allow_other_login_all: minden felhasználó
+  label_allow_other_login: normál bejelentkezés engedélyezése
+  label_allow_other_login_none: letiltva
+  label_allow_other_login_users: egyes felhasználók (vesszővel elválasztva)
+  label_default: alapértelmezett
+  label_email_address: e-mail cím
+  label_enabled: engedélyezés
+  label_env_variable_name: kérés környezeti változó neve
+  label_ldap_checked_auto_registration: automatikus regisztráció LDAP ellenőrzéssel
+  label_login_name: bejelentkezési név
+  label_remove_suffix_help: a megadott szöveg eltávolításra kerül a környezeti változó szövegének végéről
+  label_remove_suffix: utótag eltávolítása
+  label_redmine_user_property: Redmine felhasználói tulajdonság
+  label_env_checked_auto_registration: automatikus regisztráció környezeti változókkal
+  label_env_variable_firstname: keresztnév változója
+  label_env_variable_lastname: vezetéknév változója
+  label_env_variable_email: e-mail változója
+  label_env_variable_admins: adminisztrátor bejelentkezések listája
+  label_env_variable_admins_description: vesszővel elválasztott bejelentkezések listája, amelyek adminisztrátorként lesznek regisztrálva
+  label_env_variable_new_user_initial_locked: újonnan regisztrált fiókok zárolása
+  label_show_logout_link: kijelentkezési link megjelenítése
+  label_external_logout_target: hová irányítson kijelentkezéskor
+  label_external_logout_target_description: adjon meg egy külső kijelentkezési szolgáltatást. Ha üres, a belső kijelentkezési útvonal kerül felhasználásra
+  label_external_auth_buttons: Külső hitelesítési gombok
+  label_external_auth_buttons_description: Konfigurálja a külső hitelesítési URL-eket és a hozzájuk tartozó gombcímkéket. Hagyja üresen a letiltáshoz.
+  label_auth_button_pair: Gomb %{num}
+  label_auth_url: Hitelesítési URL
+  label_auth_button_label: Gomb címke
+  label_auth_button_placeholder: pl. Shibboleth bejelentkezés
+  label_or_login_with: "Vagy jelentkezzen be "
+  label_local_account: helyi fiókkal
+  label_allow_local_login: Helyi bejelentkezés engedélyezése
+  label_allow_local_login_description: "Ha nincs bejelölve, a 'helyi fiók' link nem jelenik meg a bejelentkezési oldalon"

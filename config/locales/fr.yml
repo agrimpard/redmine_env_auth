@@ -1,0 +1,35 @@
+fr:
+  label_allow_other_login_admins: tous les administrateurs
+  label_allow_other_login_all: tous les utilisateurs
+  label_allow_other_login: autoriser la connexion standard
+  label_allow_other_login_none: désactivé
+  label_allow_other_login_users: certains utilisateurs (séparés par des virgules)
+  label_default: par défaut
+  label_email_address: adresse email
+  label_enabled: activer
+  label_env_variable_name: nom de la variable d'environnement de requête
+  label_ldap_checked_auto_registration: inscription automatique avec vérification LDAP
+  label_login_name: identifiant
+  label_remove_suffix_help: le texte indiqué sera supprimé de la fin de la valeur de la variable d'environnement
+  label_remove_suffix: supprimer le suffixe
+  label_redmine_user_property: propriété utilisateur Redmine
+  label_env_checked_auto_registration: inscription automatique avec variables d'environnement
+  label_env_variable_firstname: variable avec le prénom
+  label_env_variable_lastname: variable avec le nom
+  label_env_variable_email: variable avec l'email
+  label_env_variable_admins: liste des identifiants administrateurs
+  label_env_variable_admins_description: liste des identifiants séparés par des virgules qui seront inscrits comme administrateurs
+  label_env_variable_new_user_initial_locked: verrouiller les comptes nouvellement inscrits
+  label_show_logout_link: afficher le lien de déconnexion
+  label_external_logout_target: où rediriger lors de la déconnexion
+  label_external_logout_target_description: spécifiez un service de déconnexion externe. Si vide, le chemin de déconnexion interne est utilisé
+  label_external_auth_buttons: Boutons d'authentification externe
+  label_external_auth_buttons_description: Configurez les URLs d'authentification externe et les libellés des boutons correspondants. Laissez vide pour désactiver.
+  label_auth_button_pair: Bouton %{num}
+  label_auth_url: URL d'authentification
+  label_auth_button_label: Libellé du bouton
+  label_auth_button_placeholder: ex. Connexion Shibboleth
+  label_or_login_with: "Ou se connecter avec un "
+  label_local_account: compte local
+  label_allow_local_login: Autoriser la connexion locale
+  label_allow_local_login_description: "Si décoché, le lien 'compte local' ne sera pas affiché sur la page de connexion"

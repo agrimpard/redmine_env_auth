@@ -1,0 +1,44 @@
+<%
+  settings = Setting.plugin_redmine_env_auth
+  auth_buttons = []
+  (1..5).each do |i|
+    url = settings["auth_url_#{i}"]
+    label = settings["auth_button_#{i}"]
+    if url.present? && label.present?
+      auth_buttons << { url: url, label: label }
+    end
+  end
+  allow_local_login = settings["allow_local_login"] != "false"
+%>
+
+<% if auth_buttons.any? %>
+<div id="env-auth-buttons" style="margin-top: 20px; text-align: center;">
+  <hr style="margin: 20px 0;"/>
+  
+  <div style="display: flex; flex-direction: column; gap: 10px; align-items: center;">
+    <% auth_buttons.each do |btn| %>
+    	<%= link_to btn[:label], btn[:url], :class => "button env-auth-button", :style => "display: inline-block; padding: 10px 20px; min-width: 200px; text-align: center; background-color: #628db6; color: white; text-decoration: none; border-radius: 4px;" %>
+    <% end %>
+    <% if allow_local_login %>
+	<p style="margin-bottom: 15px; color: #666;">
+		<%= l(:label_or_login_with) %>
+		<a href="#" onclick="document.getElementById('login-form').style.display='block'; document.getElementById('env-auth-buttons').style.display='none'; return false;" class="button" style="font-size: 0.9em;">
+        	<%= l(:label_local_account) %>
+      	</a>
+	</p>
+    <% end %>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var loginForm = document.getElementById('login-form');
+  var authButtons = document.getElementById('env-auth-buttons');
+  
+  if (loginForm && authButtons) {
+    // Masquer le formulaire de login par défaut et afficher les boutons
+    loginForm.style.display = 'none';
+  }
+});
+</script>
+<% end %>

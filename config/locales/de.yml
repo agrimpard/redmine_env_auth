@@ -23,3 +23,13 @@ de:
   label_show_logout_link: Abmelden-Link anzeigen
   label_external_logout_target:  Ziel für Abmelden-Link
   label_external_logout_target_description: hier kann ein externer Abmeldeservice angegeben werden. Wenn leer, Umleitung auf internen logout-Pfad
+  label_external_auth_buttons: Externe Authentifizierungsschaltflächen
+  label_external_auth_buttons_description: Konfigurieren Sie externe Authentifizierungs-URLs und die entsprechenden Schaltflächenbeschriftungen. Leer lassen zum Deaktivieren.
+  label_auth_button_pair: Schaltfläche %{num}
+  label_auth_url: Authentifizierungs-URL
+  label_auth_button_label: Schaltflächenbeschriftung
+  label_auth_button_placeholder: z.B. Shibboleth-Anmeldung
+  label_or_login_with: "Oder anmelden mit einem "
+  label_local_account: lokalen Konto
+  label_allow_local_login: Lokale Anmeldung erlauben
+  label_allow_local_login_description: "Wenn deaktiviert, wird der Link 'lokales Konto' auf der Anmeldeseite nicht angezeigt"

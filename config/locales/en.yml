@@ -23,3 +23,13 @@ en:
   label_show_logout_link: display logout link
   label_external_logout_target:  where to redirect on logout
   label_external_logout_target_description: specify an external logout service. if empty the internal logout path is used
+  label_external_auth_buttons: External Authentication Buttons
+  label_external_auth_buttons_description: Configure external authentication URLs and their corresponding button labels. Leave empty to disable.
+  label_auth_button_pair: Button %{num}
+  label_auth_url: Authentication URL
+  label_auth_button_label: Button label
+  label_auth_button_placeholder: e.g. Shibboleth Login
+  label_or_login_with: "Or login with a "
+  label_local_account: local account
+  label_allow_local_login: Allow local login
+  label_allow_local_login_description: "If unchecked, the 'local account' link will not be displayed on the login page"

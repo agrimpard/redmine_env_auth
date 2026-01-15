@@ -64,3 +64,25 @@
   <%= text_field_tag "settings[external_logout_target]", @settings["external_logout_target"] %><br/>
   <%= l(:label_external_logout_target_description)%><br/>
 </p>
+
+<fieldset>
+  <legend><%= l(:label_external_auth_buttons) %></legend>
+  <p><%= l(:label_external_auth_buttons_description) %></p>
+  
+  <p>
+    <%= hidden_field_tag "settings[allow_local_login]", "false" %>
+    <%= check_box_tag "settings[allow_local_login]", "true", @settings["allow_local_login"] != "false" %>
+    <%= content_tag(:label, l(:label_allow_local_login)) %><br/>
+    <small><%= l(:label_allow_local_login_description) %></small>
+  </p>
+  
+  <% (1..5).each do |i| %>
+    <div style="margin-bottom: 10px; padding: 5px; border: 1px solid #ddd; border-radius: 4px;">
+      <strong><%= l(:label_auth_button_pair, :num => i) %></strong><br/>
+      <%= content_tag(:label, l(:label_auth_url)) %>
+      <%= text_field_tag "settings[auth_url_#{i}]", @settings["auth_url_#{i}"], :size => 50, :placeholder => "https://example.com/shibboleth/login" %><br/>
+      <%= content_tag(:label, l(:label_auth_button_label)) %>
+      <%= text_field_tag "settings[auth_button_#{i}]", @settings["auth_button_#{i}"], :size => 30, :placeholder => l(:label_auth_button_placeholder) %><br/>
+    </div>
+  <% end %>
+</fieldset>

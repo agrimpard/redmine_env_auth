@@ -23,3 +23,13 @@ zh:
   label_show_logout_link: 显示登出链接
   label_external_logout_target: 登出时重定向的位置
   label_external_logout_target_description: 指定一个外部登出服务。如果为空，将使用内部登出路径
+  label_external_auth_buttons: 外部认证按钮
+  label_external_auth_buttons_description: 配置外部认证URL及其对应的按钮标签。留空以禁用。
+  label_auth_button_pair: 按钮 %{num}
+  label_auth_url: 认证URL
+  label_auth_button_label: 按钮标签
+  label_auth_button_placeholder: 例如 Shibboleth登录
+  label_or_login_with: "或使用"
+  label_local_account: 本地账户登录
+  label_allow_local_login: 允许本地登录
+  label_allow_local_login_description: "如果取消勾选，登录页面将不显示'本地账户'链接"

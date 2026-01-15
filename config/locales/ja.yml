@@ -24,3 +24,13 @@ ja:
   label_show_logout_link: ログアウトリンクを表示
   label_external_logout_target: ログアウト時のリダイレクト先
   label_external_logout_target_description: 外部ログアウトサービスを指定します。空の場合、内部のログアウトパスが使用されます。
+  label_external_auth_buttons: 外部認証ボタン
+  label_external_auth_buttons_description: 外部認証URLとそれに対応するボタンラベルを設定します。無効にするには空のままにしてください。
+  label_auth_button_pair: ボタン %{num}
+  label_auth_url: 認証URL
+  label_auth_button_label: ボタンラベル
+  label_auth_button_placeholder: "例: Shibbolethログイン"
+  label_or_login_with: "または"
+  label_local_account: ローカルアカウントでログイン
+  label_allow_local_login: ローカルログインを許可
+  label_allow_local_login_description: "チェックを外すと、ログインページに'ローカルアカウント'リンクが表示されません"

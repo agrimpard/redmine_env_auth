@@ -1,0 +1,35 @@
+pt-BR:
+  label_allow_other_login_admins: todos os administradores
+  label_allow_other_login_all: todos os usuários
+  label_allow_other_login: permitir login padrão
+  label_allow_other_login_none: desabilitado
+  label_allow_other_login_users: alguns usuários (separados por vírgula)
+  label_default: padrão
+  label_email_address: endereço de e-mail
+  label_enabled: habilitar
+  label_env_variable_name: nome da variável de ambiente de requisição
+  label_ldap_checked_auto_registration: registro automático com verificação LDAP
+  label_login_name: nome de login
+  label_remove_suffix_help: o texto informado será removido do final do texto na variável de ambiente
+  label_remove_suffix: remover sufixo
+  label_redmine_user_property: propriedade de usuário do Redmine
+  label_env_checked_auto_registration: registro automático com variáveis de ambiente
+  label_env_variable_firstname: variável com primeiro nome
+  label_env_variable_lastname: variável com sobrenome
+  label_env_variable_email: variável com e-mail
+  label_env_variable_admins: lista de logins de administradores
+  label_env_variable_admins_description: lista separada por vírgulas de logins que serão registrados como administradores
+  label_env_variable_new_user_initial_locked: bloquear contas recém-registradas
+  label_show_logout_link: exibir link de logout
+  label_external_logout_target: para onde redirecionar no logout
+  label_external_logout_target_description: especifique um serviço de logout externo. Se vazio, o caminho de logout interno é usado
+  label_external_auth_buttons: Botões de autenticação externa
+  label_external_auth_buttons_description: Configure URLs de autenticação externa e seus rótulos de botão correspondentes. Deixe vazio para desabilitar.
+  label_auth_button_pair: Botão %{num}
+  label_auth_url: URL de autenticação
+  label_auth_button_label: Rótulo do botão
+  label_auth_button_placeholder: ex. Login Shibboleth
+  label_or_login_with: "Ou faça login com uma "
+  label_local_account: conta local
+  label_allow_local_login: Permitir login local
+  label_allow_local_login_description: "Se desmarcado, o link 'conta local' não será exibido na página de login"

@@ -3,7 +3,7 @@ Redmine::Plugin.register :redmine_env_auth do
   author "Intera GmbH"
   url "http://github.com/intera/redmine_env_auth" if respond_to?(:url)
   description "A plugin for authentication based on variables in the request environment."
-  version "1.3"
+  version "1.4"
 
   Redmine::MenuManager.map :account_menu do |menu|
     # hide the logout link if an automatic login is active
@@ -37,14 +37,27 @@ Redmine::Plugin.register :redmine_env_auth do
       "env_variable_admins" => "",
       "env_variable_new_user_initial_locked" => "false",
       "show_logout_link" => "false",
-      "external_logout_target" => ""
+      "external_logout_target" => "",
+      "auth_url_1" => "",
+      "auth_button_1" => "",
+      "auth_url_2" => "",
+      "auth_button_2" => "",
+      "auth_url_3" => "",
+      "auth_button_3" => "",
+      "auth_url_4" => "",
+      "auth_button_4" => "",
+      "auth_url_5" => "",
+      "auth_button_5" => "",
+      "allow_local_login" => "true"
     }
 end
 
 if Rails.version > '6.0' && Rails.autoloaders.zeitwerk_enabled?
   RedmineEnvAuth::EnvAuthPatch.install
+  require_relative 'lib/redmine_env_auth/hooks'
 else
   Rails.configuration.to_prepare do
     RedmineEnvAuth::EnvAuthPatch.install
   end
+  require_relative 'lib/redmine_env_auth/hooks'
 end
